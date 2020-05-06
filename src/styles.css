@@ -1,0 +1,51 @@
+#title {
+  grid-area: title;
+}
+
+#hours {
+  grid-area: hours;
+}
+
+#minutes {
+  grid-area: minutes;
+}
+
+#submit {
+  grid-area: submit;
+}
+
+form {
+  background: white;
+  border-radius: 4px;
+  padding: 4px;
+  max-width: 256px;
+  display: grid;
+  grid-gap: 4px;
+  grid-template-areas:  "title title"
+                        "hours minutes"
+                        "submit submit";
+}
+
+input {
+  padding: 12px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 4px;
+  border: 1px solid gainsboro;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  background-color: aliceblue;
+  font-weight: 600;
+  font-size: 16px;
+  color: 333;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: gainsboro;
+}
