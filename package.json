@@ -48,6 +48,6 @@
   "devDependencies": {
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
-    "electron": "^7.1.7"
+    "electron": "^9.4.0"
   }
 }
